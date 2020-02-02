@@ -167,7 +167,16 @@ ul.hide-on-med-and-down {
 }
 
 
+#intro-logo img {
+	max-width: 60%;
+}
 
+
+@media (max-width: 992px) {
+  #intro-logo img {
+		max-width: 80%;
+	}
+}
 
 
 
