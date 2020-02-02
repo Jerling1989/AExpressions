@@ -9,9 +9,10 @@ p {
 }
 
 h2 {
-	font-family: 'Permanent Marker', cursive;
+	font-family: 'Merriweather', serif;
 	font-size: 48px;
-	text-decoration: underline;
+	font-weight: 700;
+	margin-bottom: 65px;
 }
 
 h6 {
@@ -164,3 +165,14 @@ ul.hide-on-med-and-down {
   	margin-left: 0;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
