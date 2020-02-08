@@ -39,10 +39,39 @@
     .side-nav li>a {
       padding: 0 20px;
     }
+
+    /* PHONES IN PORTRAIT col-3 */
+    @media (max-width: 600px) {
+      
+    }
+
+
+    /* PHONES IN LANDSCAPE col-sm-3 */
+    @media (min-width: 600px) and (max-width: 992px) {
+      
+    }
+
+
+    /* TABLETS col-md-3 */
+    @media (min-width: 992px) and (max-width: 1200px) {
+      
+    }
+
+
+    /* LAPTOPS & DESKTOPS col-xl-3 */
+    @media (min-width: 1200px) and (max-width: 1500px) {
+      
+    }
+
+
+    /* LARGE DESKTOPS */
+    @media (min-width: 1500px) {
+       
+    }
   </style>
 </head>
 
-<body>
+<body style="overflow-x: hidden;">
 	<!-- PARALLAX HEADER -->
 	<div class="parallax-container valign-wrapper center-align scrollspy" id="page-header">
     <div class="parallax" id="skyline"><img src="assets/img/hahne-3.png"></div>
@@ -129,7 +158,7 @@
       <h2 class="center-align">Skylights</h2>
 
       <!-- PICTURE -->
-      <div class="col s12 l6 hide-on-large-and-up" data-aos="fade-left">
+      <div class="col s12 l6 hide-on-med-and-up" data-aos="fade-left">
         <img style="max-width: 95%; border: 5px solid #293483;" src="assets/img/skylight.png">
       </div>
       <!-- END PICTURE -->
@@ -161,13 +190,13 @@
       <h2 class="center-align">Walkable Glass</h2>
 
       <!-- PICTURE -->
-      <div class="col s12 m6" data-aos="fade-right">
+      <div class="col s12 l6" data-aos="fade-right">
         <img style="max-width: 95%; border: 5px solid #293483;" src="assets/img/walkable.png">
       </div>
       <!-- END PICTURE -->
 
       <!-- WALKABLE GLASS DESCRIPTION -->
-      <div style="height: 458px;" class="col s12 m6 valign-wrapper" data-aos="fade-left">
+      <div style="height: 458px;" class="col s12 l6 valign-wrapper" data-aos="fade-left">
         <p id="intro-info" class="sans-narrow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro temporibus dolorem excepturi ut! Ad possimus temporibus pariatur, quibusdam minima illum repudiandae impedit qui est explicabo, esse repellat? Impedit, omnis!</p>        
       </div>
       <!-- END WALKABLE GLASS DESCRIPTION -->
@@ -185,14 +214,20 @@
 
       <h2 class="center-align">Ornamental Metal</h2>
 
+      <!-- PICTURE -->
+      <div class="col s12 l6 hide-on-med-and-up" data-aos="fade-left">
+        <img style="max-width: 95%; border: 5px solid #293483;" src="assets/img/ornamental.png">
+      </div>
+      <!-- END PICTURE -->
+
       <!-- ORNAMENTAL METAL DESCRIPTION -->
-      <div style="height: 458px;" class="col s12 m6 valign-wrapper" data-aos="fade-right">
+      <div style="height: 458px;" class="col s12 l6 valign-wrapper" data-aos="fade-right">
         <p id="intro-info" class="sans-narrow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro temporibus dolorem excepturi ut! Ad possimus temporibus pariatur, quibusdam minima illum repudiandae impedit qui est explicabo, esse repellat? Impedit, omnis!</p>        
       </div>
       <!-- END ORNAMENTAL METAL DESCRIPTION -->
 
       <!-- PICTURE -->
-      <div class="col s12 m6" data-aos="fade-left">
+      <div class="col s12 l6 hide-on-med-and-down" data-aos="fade-left">
         <img style="max-width: 95%; border: 5px solid #293483;" src="assets/img/ornamental.png">
       </div>
       <!-- END PICTURE -->
@@ -211,13 +246,13 @@
       <h2 class="center-align">Flood Glass</h2>
 
       <!-- PICTURE -->
-      <div class="col s12 m6" data-aos="fade-right">
+      <div class="col s12 l6" data-aos="fade-right">
         <img style="max-width: 95%; border: 5px solid #293483;" src="assets/img/flood-2.png">
       </div>
       <!-- END PICTURE -->
 
       <!-- FLOOD GLASS DESCRIPTION -->
-      <div style="height: 458px;" class="col s12 m6 valign-wrapper" data-aos="fade-left">
+      <div style="height: 458px;" class="col s12 l6 valign-wrapper" data-aos="fade-left">
         <p id="intro-info" class="sans-narrow">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium porro temporibus dolorem excepturi ut! Ad possimus temporibus pariatur, quibusdam minima illum repudiandae impedit qui est explicabo, esse repellat? Impedit, omnis!</p>        
       </div>
       <!-- END FLOOD GLASS DESCRIPTION -->
